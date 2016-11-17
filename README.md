@@ -2,10 +2,10 @@
 
 My personal variant of the ever-popular emoji commit message practice.
 
-## Emoji and their meanings
+## The List
 
-| Emoji | Meaning |
-|-------|---------|
+| Emoji | When to use it |
+|:-----:|:-------------- |
 | 🎉 | initial commit |
 | 🎨 | when improving UI |
 | 📦 | when refactoring / improving code |
