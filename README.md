@@ -2,6 +2,19 @@
 
 My personal variant of the ever-popular emoji commit message practice.
 
+## Motivation
+
+Emoji help make it more clear what a given commit is trying to accomplish,
+make your commit history easier to search though, and encourage you
+to keep each of your changes contained to a single type of action.
+This makes it easier to reason about the history of your code.
+
+For example, instead of having one massive commit that adds a feature,
+refactors an old related feature, fixes a typo, and fixes a bug,
+you could split that change into four commits that each accomplish
+one specific action. Not only does this make things cleaner and clearer,
+but it also helps when using tools like `git bisect` to track down bugs.
+
 ## The List
 
 | Emoji | When to use it |
