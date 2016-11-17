@@ -50,6 +50,25 @@ but it also helps when using tools like `git bisect` to track down bugs.
 | 🚀 | when doing stuff related to dev tools |
 | 💎 | when bumping version for a new release |
 
+## How to type emoji on your computer
+
+You could always type the raw emoji code in plain text,
+but it's often easier to search through the actual icons.
+
+On Mac OSX, you can simply use the hotkey `Ctrl + Cmd + Space`.
+
+On Ubuntu 14+, you can use the Emojione Picker app:
+
+```console
+sudo add-apt-repository ppa:ys/emojione-picker && sudo apt-get update
+sudo apt-get install emojione-picker
+```
+
+On Windows 8+, you can use the on-screen keyboard in the system tray (there must be a better way...)
+
+And if all else fails, you can search for them at <http://emojipedia.org/>
+and simply copy/paste.
+
 ## Credits
 
 Developed along with my wonderful co-workers at [Cribspot](https://www.cribspot.com/).
