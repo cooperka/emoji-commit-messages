@@ -40,3 +40,5 @@ My personal variant of the ever-popular emoji commit message practice.
 ## Credits
 
 Developed along with my wonderful co-workers at [Cribspot](https://www.cribspot.com/).
+
+Inspired in part by style guides from [slashsBin](https://github.com/slashsBin/styleguide-git-commit-message#suggested-emojis) and [atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages).
