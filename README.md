@@ -37,10 +37,6 @@ but it also helps when using tools like `git bisect` to track down bugs.
 | ✨ | when adding a new user-facing feature |
 | ♿ | when improving accessibility |
 | ⚡ | when making a backwards-incompatible change |
-| 🐧 | when fixing something specific to Linux |
-| 🍎 | when fixing something specific to iOS |
-| 🤖 | when fixing something specific to Android |
-| 🏁 | when fixing something specific to Windows |
 | ❄ | when updating configs |
 | 🔒 | when dealing with security |
 | 🚧 | when the change is a "work in progress" (do not merge) |
