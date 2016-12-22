@@ -64,8 +64,8 @@ On Mac OSX, you can simply use the hotkey `Ctrl + Cmd + Space`.
 On Ubuntu 14+, you can use the Emojione Picker app:
 
 ```console
-sudo add-apt-repository ppa:ys/emojione-picker && sudo apt-get update
-sudo apt-get install emojione-picker
+sudo add-apt-repository ppa:ys/emojione-picker && sudo apt update
+sudo apt install emojione-picker
 ```
 
 On Windows 8+, you can use the on-screen keyboard in the system tray (there must be a better way...)
