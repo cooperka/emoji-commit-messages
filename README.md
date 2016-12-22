@@ -21,10 +21,10 @@ but it also helps when using tools like `git bisect` to track down bugs.
 |:-----:|:-------------- |
 | 🎉 | initial commit |
 | 🎨 | when improving UI |
-| 📦 | when refactoring / improving code |
+| 📦 | when refactoring or improving code |
 | 🐎 | when improving performance |
 | ☁ | when tweaking an API |
-| 📝 | when writing docs |
+| 📝 | when writing docs (e.g. README, code comments) |
 | 🐛 | when fixing a bug |
 | 💥 | when fixing a crash |
 | 🚱 | when plugging memory leaks |
@@ -35,12 +35,14 @@ but it also helps when using tools like `git bisect` to track down bugs.
 | ⬇ | when downgrading dependencies |
 | 👕 | when removing linter warnings |
 | ✨ | when adding a new user-facing feature |
+| 🎌 | when adding an A/B test or feature flag |
 | ♿ | when improving accessibility |
 | ⚡ | when making a backwards-incompatible change |
-| ❄ | when updating configs |
+| 🎀 | when making a custom change at someone's behest |
+| 🔧 | when updating configs |
 | 🔒 | when dealing with security |
 | 🚧 | when the change is a "work in progress" (do not merge) |
-| 📡 | when adding instrumentation / metrics |
+| 📡 | when adding instrumentation or metrics |
 | 🔊 | when adding logging |
 | 🔇 | when removing logging |
 | 🚀 | when doing stuff related to dev tools |
