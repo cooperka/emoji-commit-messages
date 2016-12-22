@@ -17,36 +17,36 @@ but it also helps when using tools like `git bisect` to track down bugs.
 
 ## The List
 
-| Emoji | Shortcode | When to use it |
-|:-----:|:---------:|:-------------- |
-| 🎉 | :tada: | initial commit |
-| 🎨 | :art: | when improving UI |
-| 📦 | :package: | when refactoring or improving code |
-| 🐎 | :racehorse: | when improving performance |
-| ☁ | :cloud: | when tweaking an API |
-| 📝 | :pencil: | when writing docs (e.g. README, code comments) |
-| 🐛 | :bug: | when fixing a bug |
-| 💥 | :boom: | when fixing a crash |
-| 🚱 | :non-potable_water: | when plugging memory leaks |
-| 🔥 | :fire: | when removing code or files |
-| ✅ | :white_check_mark: | when adding tests |
-| 💚 | :green_heart: | when fixing the CI build |
-| ⬆ | :arrow_up: | when upgrading dependencies |
-| ⬇ | :arrow_down: | when downgrading dependencies |
-| 👕 | :shirt: | when removing linter warnings |
-| ✨ | :sparkles: | when adding a new user-facing feature |
-| 🎌 | :crossed_flags: | when adding an A/B test or feature flag |
-| ♿ | :wheelchair: | when improving accessibility |
-| ⚡ | :zap: | when making a backwards-incompatible change |
-| 🎀 | :ribbon: | when making a custom change at someone's behest |
-| 🔧 | :wrench: | when updating configs |
-| 🔒 | :lock: | when dealing with security |
-| 🚧 | :construction: | when the change is a "work in progress" (do not merge) |
-| 📡 | :satellite: | when adding instrumentation or metrics |
-| 🔊 | :loud_sound: | when adding logging |
-| 🔇 | :mute: | when removing logging |
-| 🚀 | :rocket: | when doing stuff related to dev tools |
-| 💎 | :gem: | when bumping the version for a new release |
+| Text | Image | Shortcode | When to use it |
+|:----:|:-----:|:--------- |:-------------- |
+| `🎉` | :tada: | `:tada:` | initial commit |
+| `🎨` | :art: | `:art:` | when improving UI |
+| `📦` | :package: | `:package:` | when refactoring or improving code |
+| `🐎` | :racehorse: | `:racehorse:` | when improving performance |
+| `☁` | :cloud: | `:cloud:` | when tweaking an API |
+| `📝` | :pencil: | `:pencil:` | when writing docs (e.g. README, code comments) |
+| `🐛` | :bug: | `:bug:` | when fixing a bug |
+| `💥` | :boom: | `:boom:` | when fixing a crash |
+| `🚱` | :non-potable_water: | `:non-potable_water:` | when plugging memory leaks |
+| `🔥` | :fire: | `:fire:` | when removing code or files |
+| `✅` | :white_check_mark: | `:white_check_mark:` | when adding tests |
+| `💚` | :green_heart: | `:green_heart:` | when fixing the CI build |
+| `⬆` | :arrow_up: | `:arrow_up:` | when upgrading dependencies |
+| `⬇` | :arrow_down: | `:arrow_down:` | when downgrading dependencies |
+| `👕` | :shirt: | `:shirt:` | when removing linter warnings |
+| `✨` | :sparkles: | `:sparkles:` | when adding a new user-facing feature |
+| `🎌` | :crossed_flags: | `:crossed_flags:` | when adding an A/B test or feature flag |
+| `♿` | :wheelchair: | `:wheelchair:` | when improving accessibility |
+| `⚡` | :zap: | `:zap:` | when making a backwards-incompatible change |
+| `🎀` | :ribbon: | `:ribbon:` | when making a custom change at someone's behest |
+| `🔧` | :wrench: | `:wrench:` | when updating configs |
+| `🔒` | :lock: | `:lock:` | when dealing with security |
+| `🚧` | :construction: | `:construction:` | when the change is a "work in progress" (do not merge) |
+| `📡` | :satellite: | `:satellite:` | when adding instrumentation or metrics |
+| `🔊` | :loud_sound: | `:loud_sound:` | when adding logging |
+| `🔇` | :mute: | `:mute:` | when removing logging |
+| `🚀` | :rocket: | `:rocket:` | when doing stuff related to dev tools |
+| `💎` | :gem: | `:gem:` | when bumping the version for a new release |
 
 ## How to decide which emoji to use
 
