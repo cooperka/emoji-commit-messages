@@ -17,36 +17,36 @@ but it also helps when using tools like `git bisect` to track down bugs.
 
 ## The List
 
-| Emoji | When to use it |
-|:-----:|:-------------- |
-| 🎉 | initial commit |
-| 🎨 | when improving UI |
-| 📦 | when refactoring or improving code |
-| 🐎 | when improving performance |
-| ☁ | when tweaking an API |
-| 📝 | when writing docs (e.g. README, code comments) |
-| 🐛 | when fixing a bug |
-| 💥 | when fixing a crash |
-| 🚱 | when plugging memory leaks |
-| 🔥 | when removing code or files |
-| ✅ | when adding tests |
-| 💚 | when fixing the CI build |
-| ⬆ | when upgrading dependencies |
-| ⬇ | when downgrading dependencies |
-| 👕 | when removing linter warnings |
-| ✨ | when adding a new user-facing feature |
-| 🎌 | when adding an A/B test or feature flag |
-| ♿ | when improving accessibility |
-| ⚡ | when making a backwards-incompatible change |
-| 🎀 | when making a custom change at someone's behest |
-| 🔧 | when updating configs |
-| 🔒 | when dealing with security |
-| 🚧 | when the change is a "work in progress" (do not merge) |
-| 📡 | when adding instrumentation or metrics |
-| 🔊 | when adding logging |
-| 🔇 | when removing logging |
-| 🚀 | when doing stuff related to dev tools |
-| 💎 | when bumping version for a new release |
+| Emoji | Shortcode | When to use it |
+|:-----:|:---------:|:-------------- |
+| 🎉 | :tada: | initial commit |
+| 🎨 | :art: | when improving UI |
+| 📦 | :package: | when refactoring or improving code |
+| 🐎 | :racehorse: | when improving performance |
+| ☁ | :cloud: | when tweaking an API |
+| 📝 | :pencil: | when writing docs (e.g. README, code comments) |
+| 🐛 | :bug: | when fixing a bug |
+| 💥 | :boom: | when fixing a crash |
+| 🚱 | :non-potable_water: | when plugging memory leaks |
+| 🔥 | :fire: | when removing code or files |
+| ✅ | :white_check_mark: | when adding tests |
+| 💚 | :green_heart: | when fixing the CI build |
+| ⬆ | :arrow_up: | when upgrading dependencies |
+| ⬇ | :arrow_down: | when downgrading dependencies |
+| 👕 | :shirt: | when removing linter warnings |
+| ✨ | :sparkles: | when adding a new user-facing feature |
+| 🎌 | :crossed_flags: | when adding an A/B test or feature flag |
+| ♿ | :wheelchair: | when improving accessibility |
+| ⚡ | :zap: | when making a backwards-incompatible change |
+| 🎀 | :ribbon: | when making a custom change at someone's behest |
+| 🔧 | :wrench: | when updating configs |
+| 🔒 | :lock: | when dealing with security |
+| 🚧 | :construction: | when the change is a "work in progress" (do not merge) |
+| 📡 | :satellite: | when adding instrumentation or metrics |
+| 🔊 | :loud_sound: | when adding logging |
+| 🔇 | :mute: | when removing logging |
+| 🚀 | :rocket: | when doing stuff related to dev tools |
+| 💎 | :gem: | when bumping the version for a new release |
 
 ## How to decide which emoji to use
 
