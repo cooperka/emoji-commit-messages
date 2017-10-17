@@ -1,6 +1,6 @@
 # Emoji Commit Messages
 
-My personal variant of the ever-popular emoji commit message practice.
+My personal variant of the ever-popular emoji commit messages.
 
 ## Motivation
 
@@ -12,7 +12,7 @@ This makes it easier to reason about the history of your code.
 For example, instead of having one massive commit that adds a feature,
 refactors an old related feature, fixes a typo, and fixes a bug,
 you could split that change into four commits that each accomplish
-one specific action. Not only does this make things cleaner and clearer,
+one specific type of action. Not only does this make things cleaner and clearer,
 but it also helps when using tools like `git bisect` to track down bugs.
 
 ## The List
@@ -56,21 +56,21 @@ In general, you should use exactly one emoji per commit message. In rare cases, 
 
 ## How to type emoji on your computer
 
-You could always type the raw emoji code in plain text,
-but it's often easier to search through the actual icons.
+You can always type the raw emoji shortcode with colons (GitHub and GitLab both recognize this),
+but sometimes it's easier to search through the actual icons.
 
-On Mac OSX, you can simply use the hotkey `Ctrl + Cmd + Space`.
+- On Mac OSX, you can open the built-in emoji picker with the hotkey `Ctrl + Cmd + Space`.
 
-On Ubuntu 14+, you can use the Emojione Picker app:
+- On Ubuntu 14+, you can use the Emojione Picker app:
 
-```console
-sudo add-apt-repository ppa:ys/emojione-picker && sudo apt update
-sudo apt install emojione-picker
-```
+    ```console
+    sudo add-apt-repository ppa:ys/emojione-picker && sudo apt update
+    sudo apt install emojione-picker
+    ```
 
-On Windows 8+, you can use the on-screen keyboard in the system tray (there must be a better way...)
+- On Windows 8+, you can use the on-screen keyboard in the system tray (there must be a better way...)
 
-And if all else fails, you can search for them at <http://emojipedia.org/>
+If all else fails, you can search for an emoji at <http://emojipedia.org/>
 and simply copy/paste.
 
 ## Examples
@@ -89,6 +89,6 @@ The following is a brief list of projects currently using this variant:
 
 ## Credits
 
-Developed along with my wonderful co-workers at [Cribspot](https://www.cribspot.com/).
+Developed along with my co-workers at [Cribspot](https://www.cribspot.com/).
 
 Inspired in part by style guides from [slashsBin](https://github.com/slashsBin/styleguide-git-commit-message#suggested-emojis) and [atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages).
