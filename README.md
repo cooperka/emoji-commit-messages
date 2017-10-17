@@ -73,6 +73,20 @@ On Windows 8+, you can use the on-screen keyboard in the system tray (there must
 And if all else fails, you can search for them at <http://emojipedia.org/>
 and simply copy/paste.
 
+## Examples
+
+The following is a brief list of projects currently using this variant:
+
+- https://github.com/cooperka/emoji-commit-messages (of course)
+
+- https://github.com/cooperka/react-native-immutable-list-view
+
+- https://github.com/cooperka/react-native-snackbar
+
+- https://github.com/cooperka/bash-git-utils
+
+- https://github.com/cribspot/emoji-utils
+
 ## Credits
 
 Developed along with my wonderful co-workers at [Cribspot](https://www.cribspot.com/).
