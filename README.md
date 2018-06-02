@@ -25,7 +25,6 @@ as well as when reverting individual changes.
 | `🎨` | :art: | `:art:` | when improving UI |
 | `📦` | :package: | `:package:` | when refactoring or improving code |
 | `🐎` | :racehorse: | `:racehorse:` | when improving performance |
-| `☁` | :cloud: | `:cloud:` | when tweaking an API |
 | `🔒` | :lock: | `:lock:` | when improving security |
 | `🔧` | :wrench: | `:wrench:` | when updating configs |
 | `♿` | :wheelchair: | `:wheelchair:` | when improving accessibility |
@@ -38,7 +37,6 @@ as well as when reverting individual changes.
 | `🔥` | :fire: | `:fire:` | when removing code or files |
 | `✅` | :white_check_mark: | `:white_check_mark:` | when adding new tests |
 | `💚` | :green_heart: | `:green_heart:` | when fixing the CI build |
-| `🎀` | :ribbon: | `:ribbon:` | when making a custom change at someone's behest |
 | `👕` | :shirt: | `:shirt:` | when fixing linter warnings |
 | `📡` | :satellite: | `:satellite:` | when adding instrumentation or metrics |
 | `🔊` | :loud_sound: | `:loud_sound:` | when adding logging |
