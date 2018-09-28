@@ -1,6 +1,6 @@
 # Emoji commit messages
 
-My variant of the ever-popular emoji commit messages.
+A fun paradigm to encourage cleaner commits.
 
 ## Motivation
 
