@@ -33,7 +33,7 @@ as well as when reverting individual changes.
 | `💎` | :gem: | `:gem:` | `gem stone` | when cutting a new release / version bump |
 | `🐛` | :bug: | `:bug:` | `bug` | when fixing a bug |
 | `💥` | :boom: | `:boom:` | `collision` | when fixing a crash |
-| `🚱` | :non-potable_water: | `:non-potable_water:` | `non-portable water` | when fixing a memory leak |
+| `🚱` | :non-potable_water: | `:non-potable_water:` | `non-potable water` | when fixing a memory leak |
 | `🔥` | :fire: | `:fire:` | `fire` | when removing code or files |
 | `✅` | :white_check_mark: | `:white_check_mark:` | `check mark button` | when adding new tests |
 | `💚` | :green_heart: | `:green_heart:` | `green heart` | when fixing the CI build |
@@ -75,7 +75,7 @@ I find it faster to type the raw emoji shortcode with colons (GitHub and GitLab 
     ```
 
 - On Windows 10 update 1709, pressing <kbd>Win</kbd>+<kbd>.</kbd> while having keyboard focus in a text field in any program will bring up the built-in emoji picker, similarly to Mac OS. The table above includes names which work specifically in this emoji picker, but the GFM shortcodes work too. Some of the Windows-specific ones can be easier to remember, though.
-  
+
   On lower versions of Windows, starting with Windows 8, you can use the on-screen keyboard in the system tray. Alternatively, you can use [BabelMap] which is a Unicode character picker for even lower versions of Windows. It also might be more convenient than the Windows 8 on-screen keyboard.
 
 If all else fails, you can search for an emoji at <http://emojipedia.org/> and simply copy/paste.
