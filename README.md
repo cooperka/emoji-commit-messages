@@ -18,7 +18,9 @@ as well as when reverting individual changes.
 
 ## The list
 
-| Text | Image | GFM shortcode | Windows 10 picker name | When to use it |
+Fork and modify to suit your needs. Don't forget to "star" and share the love.
+
+| Text | Image | GFM shortcode* | Windows 10 picker name | When to use it |
 |:--:|:-----:|:--------- |:-------------- |:-------------- |
 | `🎉` | :tada: | `:tada:` | `party popper` | initial commit |
 | `✨` | :sparkles: | `:sparkles:` | `sparkles` | when adding a new user-facing feature |
@@ -43,13 +45,13 @@ as well as when reverting individual changes.
 | `🔇` | :mute: | `:mute:` | `muted speaker` | when removing logging |
 | `⬆` | :arrow_up: | `:arrow_up:` | `up arrow` | when upgrading dependencies |
 | `⬇` | :arrow_down: | `:arrow_down:` | `down arrow` | when downgrading dependencies |
-| `🎌` | :crossed_flags: | `:crossed_flags:` | `crossed flags` | when adding an A/B test or feature flag* |
-| `⚡` | :zap: | `:zap:` | `high voltage` | when making a backwards-incompatible change* |
-| `🚧` | :construction: | `:construction:` | `construction` | when the change is a work in progress (do not merge)* |
+| `🎌` | :crossed_flags: | `:crossed_flags:` | `crossed flags` | when adding an A/B test or feature flag** |
+| `⚡` | :zap: | `:zap:` | `high voltage` | when making a backwards-incompatible change** |
+| `🚧` | :construction: | `:construction:` | `construction` | when the change is a work in progress (do not merge)** |
 
-GFM shortcodes mainly work with **G**itHub **F**lavored **M**arkdown, but may work in other markdown renderers too.
+\* GFM shortcodes are recognized by any software that uses **G**itHub **F**lavored **M**arkdown. You can type them directly in your commit message!
 
-\* Asterisk means these emoji are often combined with another, primary emoji.
+\** These emoji are often combined with another, primary emoji.
 
 ## How to decide which emoji to use
 
@@ -65,18 +67,18 @@ Emoji will also depend on your client/user. A back-end API might use :sparkles: 
 
 I find it faster to type the raw emoji shortcode with colons (GitHub and GitLab both recognize this), but sometimes it's easier to search through the actual icons, especially as you're starting out.
 
-- On Mac OS X, you can open the built-in emoji picker with the hotkey <kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>Space</kbd>.
+- On **Mac OS X**, you can open the built-in emoji picker with the hotkey <kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>Space</kbd>.
 
-- On Ubuntu 14+, you can use the Emojione Picker app:
+- On **Ubuntu 14+**, you can use the Emojione Picker app:
 
     ```console
     sudo add-apt-repository ppa:ys/emojione-picker && sudo apt update
     sudo apt install emojione-picker
     ```
 
-- On Windows 10 update 1709, pressing <kbd>Win</kbd>+<kbd>.</kbd> while having keyboard focus in a text field in any program will bring up the built-in emoji picker, similarly to Mac OS. The table above includes names which work specifically in this emoji picker, but the GFM shortcodes work too. Some of the Windows-specific ones can be easier to remember, though.
+- On **Windows 10** update 1709, pressing <kbd>Win</kbd>+<kbd>.</kbd> while having keyboard focus in a text field in any program will bring up the built-in emoji picker, similarly to Mac OS. The table above includes names which work specifically in this emoji picker, but the GFM shortcodes work too. Some of the Windows-specific ones can be easier to remember, though.
 
-  On lower versions of Windows, starting with Windows 8, you can use the on-screen keyboard in the system tray. Alternatively, you can use [BabelMap] which is a Unicode character picker for even lower versions of Windows. It also might be more convenient than the Windows 8 on-screen keyboard.
+  On lower versions of Windows, starting with **Windows 8**, you can use the on-screen keyboard in the system tray. Alternatively, you can use [BabelMap] which is a Unicode character picker for even lower versions of Windows. It also might be more convenient than the Windows 8 on-screen keyboard.
 
 If all else fails, you can search for an emoji at <http://emojipedia.org/> and simply copy/paste.
 
@@ -86,9 +88,11 @@ The following is a brief list of open-source projects currently using these emoj
 
 - https://github.com/cooperka/emoji-commit-messages (of course)
 
+- https://github.com/cooperka/react-native-snackbar
+
 - https://github.com/cooperka/react-native-immutable-list-view
 
-- https://github.com/cooperka/react-native-snackbar
+- https://github.com/cooperka/eslint-config-cooperka
 
 - https://github.com/cooperka/bash-git-utils
 
